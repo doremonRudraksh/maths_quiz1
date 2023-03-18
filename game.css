@@ -1,19 +1,18 @@
 body
 {
 	background-image: url("https://cdn.hipwallpaper.com/i/75/53/0cFvKO.jpg");
-	text-align: center;
 }
 
-.login_div1 , .login_div2
-{
-		background: blue;
+	.login_div1 , .login_div2
+	{
+		background: white;
 		padding: 10px;
 		float: none;
 		border-radius: 15px;
 		width: 30%;
-		height: 170px;
-		background-color: yellowgreen;
-}
+		height: 150px;
+		background-color: wheat;
+	}
 
 
 #player1_name , #player2_name
@@ -35,57 +34,47 @@ body
 {
 	background: white;
 	border-radius: 10px;
-	border-top: 10px solid royalblue;
+	border-top: 10px solid #AA4465;
 	padding: 10px;
 	float: none;
 	text-align: left;
 }
 h1{
-	color: darkgoldenrod;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: orange;
+	font-family: 'Akaya Kanadaka', cursive;
 }
 h3{
-	font-family: 'Lora', 'Courier New', Courier, monospace, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	color:whitesmoke;
+	font-family: 'Lora', serif;
+	color: teal;
 }
 #username{
 	font-family: 'Yellowtail', cursive;
 	color: turquoise;
 }
-
+button{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 input:hover{
-	background-color: pink;
+	background-color: yellow;
 }
 .login_div2:hover{
-	border: 5px solid rgb(53, 80, 78);
-	width: 30%;
+	border: 5px solid rgb(102, 6, 73);
+	width: 35%;
 }
 .login_div1:hover{
-	border: 5px solid rgb(53, 80, 72);
-	width: 30%;
+	border: 5px solid rgb(102, 6, 73);
+	width: 35%;
 }
-#number1,#number2
+#number_1,#number_2
 {
-	color:darkred;
+	color: tomato;
 	font-weight: bold;
-	width: 40%;
 }
 h4{
-	color:lightskyblue;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, cursive;
+	color: bisque;
+	font-family: 'Akaya Kanadaka', cursive;
 	width: 100px;
 }
 h4:hover{
 	text-decoration: underline;
-}
-#player1_score{
-	color: yellow;
-	font-size: 20px;
-	
-
-}
-#player2_score{
-	color: yellow;
-	font-size: 20px;
-	
 }
